@@ -12,24 +12,32 @@ git clone https://github.com/strlrd-29/tp.git
 
 2. The still pretty easy way **(Kohol edition (sofiane))** is to download the repo as a zip file and extract it inside the www folder that you will find in the installation folder.
 
-![step1](/steps/1.png)
+![step1](/steps/11.png)
 
-3.
+3. Rename the folder from `tchipi-master` to `rentals`
+
+![download](/steps/download.png)
+
+                                        |
+
+                                        ↓
+
+![download2](/steps/download1.png)
 
 <br />
 <br />
 
-3. Before running you project you need to create you db first, to do that download this [sql file](/car.sql) and open it in vscode.
+4. Before running you project you need to create you db first, to do that download this [sql file](/car.sql) and open it in vscode.
 
-4. After that you need to copy the path of the file by right clicking on the file name and select "copy path" as show in the picture below.
+5. After that you need to copy the path of the file by right clicking on the file name and select "copy path" as show in the picture below.
 
 ![step0](/steps/0.png)
 
-5.Then open MySQL console by clicking on the wamp server icon then `MySQL` > `MySQL console`.
+6.Then open MySQL console by clicking on the wamp server icon then `MySQL` > `MySQL console`.
 
 ![step01](/steps/01.png)
 
-4. In order to execute the sql file simply write `source ` followed by the path that you copied earlier and then press enter. in my case the file path was `D:\wamp64\www\rentals\car.sql` so my command would look like this:
+7. In order to execute the sql file simply write `source ` followed by the path that you copied earlier and then press enter. in my case the file path was `D:\wamp64\www\rentals\car.sql` so my command would look like this:
 
 ```bash
 source D:\wamp64\www\rentals\car.sql
@@ -37,9 +45,25 @@ source D:\wamp64\www\rentals\car.sql
 
 ![step02](/steps/02.png)
 
-5. Now you can start the project
+8. Now you can start the project by clicking on wamp server icon then on `localhost`
 
-6. In question four where you have to retrieve cars based on location price using a stored procedure you first need to create the procedure in the database. You can do it by using the following command:
+![localhost](/steps/localhost.png)
+
+9. A browser window will open up and it will look like this:
+
+![window](/steps/window.png)
+
+10. you can now access the project by typing `localhost/rentals` in your browser.
+
+![rentals](/steps/rentals.png)
+
+11. That is all! now you can start coding! 🚀
+
+<br />
+<br />
+<br />
+
+## In question four where you have to retrieve cars based on location price using a stored procedure you first need to create the procedure in the database. You can do it by using the following command:
 
 ```sql
 
